@@ -4,6 +4,7 @@
   "description": "노드를 이용한 로그인 페이지 만들",
   "main": "index.js",
   "scripts": {
+    "start": "node ./src/bin/www.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/yunasung1003/node-login#readme",
   "dependencies": {
+    "ejs": "^3.1.6",
     "express": "^4.17.1"
   }
 }
